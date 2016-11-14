@@ -1,0 +1,96 @@
+@charset "utf-8";
+.f {
+  float: left;
+}
+body {
+  background-color: #efefef;
+}
+#page {
+  width: 100%;
+}
+#page header {
+  width: 100%;
+  height: 1.40625rem;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #f9fafd;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#page header > a img {
+  width: 0.359375rem;
+  height: 0.609375rem;
+}
+#page header input:nth-of-type(1) {
+  width: 6.1875rem;
+  height: 0.8125rem;
+  border-radius: 0.078125rem;
+  text-indent: 0.78125rem;
+  border: 1px solid #e0e0e0;
+  background: url(../../images/history_bg2.jpg) no-repeat 0.203125rem 0.203125rem;
+  background-size: 0.390625rem 0.390625rem;
+}
+#page header input:nth-of-type(2) {
+  width: 1.484375rem;
+  height: 0.8125rem;
+  font-size: 0.40625rem;
+  color: #777;
+  background-color: #f9fafd;
+  border: none;
+}
+#page #history {
+  width: 100%;
+}
+#page #history > p {
+  font-size: 0.34375rem;
+  height: 0.859375rem;
+  line-height: 0.859375rem;
+  text-indent: 0.46875rem;
+  margin-top: 0.625rem;
+}
+#page #history .hot_search {
+  width: 100%;
+}
+#page #history .hot_search a {
+  display: inline-block;
+  height: 1.0625rem;
+  line-height: 1.0625rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0.46875rem;
+  padding: 0 0.46875rem;
+  margin-top: 0.3125rem;
+  margin-left: 0.359375rem;
+  font-size: 0.359375rem;
+}
+#page #history .record {
+  width: 100%;
+}
+#page #history .record > a {
+  display: inline-block;
+  height: 1.0625rem;
+  line-height: 1.0625rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0.46875rem;
+  padding: 0 0.46875rem;
+  margin-top: 0.3125rem;
+  margin-left: 0.359375rem;
+  font-size: 0.359375rem;
+  margin-bottom: 1.25rem;
+}
+#page #clear {
+  width: 100%;
+  height: 6.484375rem;
+}
+#page #clear p {
+  width: 6.671875rem;
+  height: 1.25rem;
+  border-radius: 0.125rem;
+  font-size: 0.40625rem;
+  color: #aaa;
+  line-height: 1.25rem;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}

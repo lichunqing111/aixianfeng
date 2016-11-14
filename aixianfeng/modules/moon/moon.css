@@ -1,0 +1,109 @@
+@charset "utf-8";
+.f {
+  float: left;
+}
+body {
+  background-color: #efefef;
+}
+#page {
+  width: 100%;
+}
+#page header {
+  width: 100%;
+  height: 1.40625rem;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #f9fafd;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#page header > a img {
+  width: 0.359375rem;
+  height: 0.609375rem;
+}
+#page header input:nth-of-type(1) {
+  width: 6.1875rem;
+  height: 0.8125rem;
+  border-radius: 0.078125rem;
+  text-indent: 0.78125rem;
+  border: 1px solid #e0e0e0;
+  background: url(../../images/history_bg2.jpg) no-repeat 0.203125rem 0.203125rem;
+  background-size: 0.390625rem 0.390625rem;
+}
+#page header input:nth-of-type(2) {
+  width: 1.484375rem;
+  height: 0.8125rem;
+  font-size: 0.40625rem;
+  color: #777;
+  background-color: #f9fafd;
+  border: none;
+}
+#page #main {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+#page #main dl {
+  width: 4.546875rem;
+  height: 7.046875rem;
+  background-color: #fff;
+  margin-top: 0.234375rem;
+  margin-left: 0.296875rem;
+}
+#page #main dl dt img {
+  width: 4.546875rem;
+  height: 4.328125rem;
+}
+#page #main dl dd {
+  font-size: 0.34375rem;
+  color: #000;
+  margin-left: 0.171875rem;
+}
+#page #main dl > img {
+  width: 0.875rem;
+  height: 0.4375rem;
+  margin-left: 0.171875rem;
+}
+#page #main dl p {
+  margin-left: 0.171875rem;
+}
+#page #main dl p:nth-of-type(1) {
+  font-size: 0.34375rem;
+  color: #999;
+}
+#page #main dl p:nth-of-type(2) {
+  width: 2.03125rem;
+  display: inline-block;
+}
+#page #main dl p:nth-of-type(2) span {
+  color: red;
+  font-size: 0.28125rem;
+}
+#page #main dl p:nth-of-type(2) del {
+  font-size: 0.28125rem;
+  color: #999;
+}
+#page #main dl > span {
+  display: inline-block;
+  color: red;
+  font-size: 0.34375rem;
+  width: 1.203125rem;
+  margin-left: 0.9375rem;
+}
+#page > a {
+  display: block;
+  width: 1.6875rem;
+  height: 1.6875rem;
+  border: 0.09375rem solid #fff;
+  border-radius: 50%;
+  background-color: #ffd600;
+  position: fixed;
+  bottom: 0.21875rem;
+  right: 0.1875rem;
+}
+#page > a img {
+  width: 0.890625rem;
+  height: 0.875rem;
+  margin: 0.390625rem 0 0 0.3125rem;
+}

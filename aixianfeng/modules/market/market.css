@@ -1,0 +1,194 @@
+@charset "utf-8";
+.f {
+  float: left;
+}
+body {
+  background-color: #efefef;
+}
+#page {
+  width: 100%;
+  position: relative;
+}
+#page header {
+  width: 100%;
+  height: 1.4375rem;
+  background-color: #ffd600;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+#page header a img {
+  width: 0.671875rem;
+  height: 0.984375rem;
+  margin-right: 0.1875rem;
+}
+#page header h4 {
+  width: 2.8125rem;
+  height: 0.625rem;
+  font-size: 0.40625rem;
+  color: #000;
+  line-height: 0.625rem;
+  text-align: center;
+  margin: 0 auto;
+  background: url(../../images/bg3.jpg) no-repeat 2.5rem 0.171875rem;
+  background-size: 0.25rem 0.265625rem;
+}
+#page #main_left {
+  width: 2.375rem;
+  position: fixed;
+  top: 1.4375rem;
+  left: 0;
+}
+#page #main_left ul {
+  width: 2.375rem;
+  height: 14.84375rem;
+  overflow: auto;
+}
+#page #main_left ul li {
+  height: 1.25rem;
+  background-color: #f8f8f8;
+  line-height: 1.25rem;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0.001563rem;
+}
+#page #main_left ul li a {
+  font-size: 0.34375rem;
+  display: block;
+  width: 2.21875rem;
+  height: 1.09375rem;
+  margin-top: 0.078125rem;
+}
+#page #main_left ul li a:hover {
+  border-left: 10px solid #ffd600;
+}
+#page #right_head {
+  width: 7.5rem;
+  height: 1.25rem;
+  position: fixed;
+  left: 2.5rem;
+  top: 1.4375rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  z-index: 1;
+  background-color: #fff;
+}
+#page #right_head p {
+  width: 3.75rem;
+  height: 0.5625rem;
+  line-height: 0.5625rem;
+  text-align: center;
+}
+#page #right_head p:nth-of-type(1) {
+  border-right: 1px solid #dddddd;
+}
+#page #right_head p a {
+  font-size: 0.34375rem;
+  color: #7c7c7c;
+}
+#page #right_head p a img {
+  width: 0.3125rem;
+  height: 0.15625rem;
+  margin-left: 0.15625rem;
+}
+#page #main_right {
+  width: 7.5rem;
+  position: fixed;
+  left: 2.5rem;
+  top: 2.6875rem;
+  z-index: 1;
+  background-color: #fff;
+}
+#page #main_right .super {
+  width: 100%;
+  height: 14.0625rem;
+  overflow: auto;
+}
+#page #main_right .super > div {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+#page #main_right .super > div > a:nth-of-type(1) img {
+  width: 0.875rem;
+  height: 0.875rem;
+  position: absolute;
+  bottom: 0.34375rem;
+  right: 1.71875rem;
+  display: none;
+}
+#page #main_right .super > div > a:nth-of-type(2) img {
+  width: 0.875rem;
+  height: 0.875rem;
+  position: absolute;
+  bottom: 0.34375rem;
+  right: 0.34375rem;
+}
+#page #main_right .super > div > span {
+  font-size: 0.34375rem;
+  position: absolute;
+  bottom: 0.546875rem;
+  right: 1.328125rem;
+  display: none;
+}
+#page #main_right .super > div dl {
+  width: 5.46875rem;
+  height: 2.8125rem;
+}
+#page #main_right .super > div dl dt {
+  float: left;
+}
+#page #main_right .super > div dl dt img {
+  width: 2.703125rem;
+  height: 2.78125rem;
+}
+#page #main_right .super > div dl dd {
+  float: left;
+  font-size: 0.34375rem;
+  width: 2.65625rem;
+}
+#page #main_right .super > div dl dd img {
+  width: 0.875rem;
+  height: 0.4375rem;
+}
+#page #main_right .super > div dl dd:nth-of-type(1) {
+  margin-top: 0.234375rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#page #main_right .super > div dl dd:nth-of-type(2) {
+  line-height: 0.625rem;
+}
+#page #main_right .super > div dl dd:nth-of-type(2) span {
+  display: inline-block;
+  width: 1.5rem;
+  height: 0.4375rem;
+  background-color: red;
+  color: #fff;
+  line-height: 0.4375rem;
+  text-align: center;
+  border-radius: 0.078125rem;
+  margin-left: 0.21875rem;
+}
+#page #main_right .super > div dl p {
+  font-size: 0.28125rem;
+  line-height: 0.625rem;
+  height: 0.625rem;
+  width: 2.34375rem;
+  float: left;
+}
+#page #main_right .super > div dl p:nth-of-type(1) {
+  color: #999;
+}
+#page #main_right .super > div dl p:nth-of-type(2) span{
+  color: red;
+}
+#page #main_right .super > div dl p:nth-of-type(2) del {
+  color: #999;
+}

@@ -1,0 +1,201 @@
+@charset "utf-8";
+.f {
+  float: left;
+}
+body {
+  background-color: #efefef;
+}
+#page {
+  width: 100%;
+}
+#page header {
+  width: 100%;
+  height: 1.40625rem;
+  background-color: #f9fafd;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+#page header a img {
+  width: 0.359375rem;
+  height: 0.609375rem;
+  margin-left: 0.390625rem;
+}
+#page header h4 {
+  font-size: 0.40625rem;
+  width: 6.25rem;
+  height: 1.40625rem;
+  line-height: 1.40625rem;
+  text-align: center;
+  margin-left: 1.171875rem;
+}
+#page #integral {
+  width: 100%;
+  height: 4.96875rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+#page #integral .circle {
+  width: 4.234375rem;
+  height: 4.234375rem;
+  margin: 0.3125rem auto;
+  overflow: hidden;
+  position: relative;
+}
+#page #integral .circle .rectangle_left {
+  width: 2.125rem;
+  height: 4.265625rem;
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+#page #integral .circle .rectangle_left .circle_left {
+  width: 4.25rem;
+  height: 4.25rem;
+  border: 0.78125rem solid transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 0.78125rem solid #ef592a;
+  border-right: 0.78125rem solid #ef592a;
+  animation: t1 1s linear forwards;
+  justify-content: center;
+}
+#page #integral .circle .rectangle_left .circle_left .circle_small_left {
+  width: 2.703125rem;
+  height: 2.703125rem;
+  border: 0.234375rem solid transparent;
+  border-radius: 50%;
+  position: absolute;
+  border-top: 0.234375rem solid red;
+  border-right: 0.234375rem solid red;
+}
+#page #integral .circle .rectangle_right {
+  width: 2.125rem;
+  height: 4.265625rem;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+}
+#page #integral .circle .rectangle_right .circle_right {
+  width: 4.25rem;
+  height: 4.25rem;
+  border: 0.78125rem solid transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-bottom: 0.78125rem solid #ef592a;
+  border-left: 0.78125rem solid #ef592a;
+  animation: t 1s linear forwards;
+}
+#page #integral .circle .rectangle_right .circle_right .circle_small_right {
+  width: 2.703125rem;
+  height: 2.703125rem;
+  border: 0.234375rem solid transparent;
+  border-radius: 50%;
+  position: absolute;
+  border-bottom: 0.234375rem solid red;
+  border-left: 0.234375rem solid red;
+}
+#page #integral .circle .useful {
+  position: absolute;
+  z-index: 1;
+  width: 1.875rem;
+  height: 1.125rem;
+  text-align: center;
+  top: 1.5625rem;
+  left: 1.1875rem;
+}
+#page #integral .circle .useful p {
+  font-size: 0.390625rem;
+  color: #9d9d9d;
+}
+#page #integral .circle .useful span {
+  color: #e64f1a;
+  font-size: 0.453125rem;
+  font-weight: bolder;
+}
+#page #rules {
+  width: 100%;
+  height: 2.0625rem;
+  background-color: #fff;
+  display: flex;
+  margin-top: 0.03125rem;
+}
+#page #rules dl {
+  width: 3.328125rem;
+  height: 100%;
+  border-right: 1px solid #ccc;
+}
+#page #rules dl:nth-of-type(3) {
+  border-right: none;
+}
+#page #rules dl dt img {
+  width: 0.75rem;
+  height: 0.75rem;
+  margin: 0.3125rem 0 0.15625rem 1.25rem;
+}
+#page #rules dl dd {
+  text-align: center;
+}
+#page #rules dl dd a {
+  font-size: 0.34375rem;
+  color: #999;
+}
+#page #ticket {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 0.3125rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+#page #ticket dl {
+  width: 5.0rem;
+  height: 4.625rem;
+}
+#page #ticket dl:nth-of-type(odd) {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#page #ticket dl:nth-of-type(even) {
+  border-bottom: 1px solid #ccc;
+}
+#page #ticket dl dt {
+  margin: 0.703125rem 0 0.546875rem 1.015625rem;
+}
+#page #ticket dl dt img {
+  width: 3.03125rem;
+  height: 1.65625rem;
+}
+#page #ticket dl dd {
+  font-size: 0.34375rem;
+  color: #000;
+  line-height: 0.78125rem;
+  margin-left: 0.3125rem;
+}
+#page #ticket dl span {
+  font-size: 0.34375rem;
+  color: red;
+  margin-left: 0.3125rem;
+}
+@keyframes t {
+  0% {
+    transform: rotate(45deg);
+  }
+  50%,
+  100% {
+    transform: rotate(225deg);
+  }
+}
+@keyframes t1 {
+  0%,
+  50% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(225deg);
+  }
+}

@@ -1,0 +1,123 @@
+@charset "utf-8";
+.f {
+  float: left;
+}
+body {
+  background-color: #efefef;
+}
+#page {
+  width: 100%;
+  position: relative;
+}
+#page header {
+  width: 100%;
+  height: 1.40625rem;
+  background-color: #f9fafd;
+  border-bottom: 1px solid #e0e0e0;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#page header h4 {
+  font-size: 0.40625rem;
+  width: 1.875rem;
+  height: 1.40625rem;
+  line-height: 1.40625rem;
+  text-align: center;
+  margin: 0 auto;
+}
+#page #product_list {
+  width: 100%;
+  height: 2.125rem;
+  background-color: #fff;
+  margin-top: 1.6405rem;
+  border-top: 1px solid #a2a2a2;
+  border-bottom: 1px solid #a2a2a2;
+  
+}
+#page #product_list p {
+  width: 100%;
+  height: 1.046875rem;
+  display: flex;
+  justify-content: space-around;
+}
+#page #product_list p a {
+  font-size: 0.34375rem;
+  display: block;
+  width: 1.640625rem;
+  height: 1.046875rem;
+  color: #898989;
+  line-height: 1.046875rem;
+  text-align: center;
+}
+#page #product_list p a:hover {
+  border-bottom: 2px solid #595656;
+  color: #595656;
+}
+#page #product_list p:nth-of-type(1) {
+  border-bottom: 1px solid #e0e0e0;
+}
+#page #reserve_main {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 0.25rem;
+}
+#page #reserve_main .selection {
+  width: 100%;
+  height: 0.921875rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+}
+#page #reserve_main .selection p {
+  width: 2.109375rem;
+  height: 0.390625rem;
+  border-left: 10px solid #2aaef8;
+  font-size: 0.34375rem;
+  line-height: 0.390625rem;
+  margin-left: 0.265625rem;
+  text-indent: 0.3125rem;
+}
+#page #reserve_main dl {
+  width: 100%;
+  height: 3.5rem;
+  border-bottom: 1px solid #ccc;
+}
+#page #reserve_main dl dt {
+  float: left;
+}
+#page #reserve_main dl dt a img {
+  width: 4.578125rem;
+  height: 3.453125rem;
+}
+#page #reserve_main dl dd {
+  color: #828282;
+  font-size: 0.34375rem;
+  width: 4.453125rem;
+  line-height: 0.703125rem;
+  float: left;
+}
+#page #reserve_main dl > a {
+  float: left;
+  display: inline-block;
+  margin-top: 0.546875rem;
+}
+#page #reserve_main dl > a img {
+  width: 1.078125rem;
+  height: 1.0625rem;
+}
+#page #reserve_main dl p {
+  float: left;
+  color: red;
+  font-size: 0.40625rem;
+  font-weight: bolder;
+  width: 2.5rem;
+  height: 1.09375rem;
+  line-height: 1.09375rem;
+  margin-top: 0.625rem;
+}
+#page #reserve_main dl p del {
+  font-size: 0.34375rem;
+  color: #999;
+  font-weight: normal;
+}
